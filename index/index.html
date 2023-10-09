@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="dialog">
+        <p>Quit Game?</p>
+        <button id="yesButton">Yes</button>
+        <button id="noButton">No</button>
+    </div>
+    <script>
+        var dialog = document.getElementById("dialog");
+        var yesButton = document.getElementById("yesButton");
+        var noButton = document.getElementById("noButton");
+
+        yesButton.addEventListener("click", function () {
+            console.log("User clicked Yes");
+            dialog.style.display = "none";
+        });
+
+        noButton.addEventListener("click", function () {
+            console.log("User clicked No");
+            dialog.style.display = "none";
+        });
+
+        dialog.style.display = "block";
+
+    </script>
+</body>
+
+</html>

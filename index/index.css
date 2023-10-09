@@ -1,0 +1,10 @@
+#dialog {
+    background: #ffffff;
+    padding: 20px;
+    border: 1px solid #000000;
+    text-align: center;
+}
+
+button {
+    margin: 10px;
+}
